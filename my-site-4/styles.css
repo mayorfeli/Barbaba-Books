@@ -422,7 +422,7 @@ width: 320px;
 }
 
 .videos video{
-  outline:0px;
+  outline:0px red;
 }
 
 .videos img:hover {
