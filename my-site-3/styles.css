@@ -420,6 +420,9 @@ width: 320px;
     border-radius: 5%;
 }
 
+.videos video{
+  outline:0px;
+}
 
 .videos img:hover {
   opacity: 100%;
