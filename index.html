@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Barbapapa</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23e76ecf%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2272%22>👀</text></svg>" />
+
+</head>
+
+
+<body>
+
+
+
+<div class="pop-up" href="images/popup-01-01.jpg">
+    <img src="images/popup-01-01.jpg" width="820" height="520">
+  </a>
+	<button class="close">&times;
+	</button>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script id="rendered-js">
+
+
+$(document).ready(function(){
+  $('.close').click(function(){
+    $('.pop-up').css("animation","swing 5s ease forwards");
+  });
+});
+
+
+</script>
+
+
+
+
+
+<div class="vidBG">
+	<video id="videoBG" poster="" autoplay muted loop>
+	<source src="10.mp4" type="video/mp4">
+
+	</video>
+</div>
+
+
+<section class="move-area">
+
+  		<div class='container'>
+   			 <div class='eye'></div>
+   			 <div class='eye'></div>
+ 		 </div>
+
+
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script id="rendered-js">
+
+
+	$(".move-area").mousemove(function (event) {
+	  var eye = $(".eye");
+	  var x = eye.offset().left + eye.width() / 2;
+	  var y = eye.offset().top + eye.height() / 2;
+	  var rad = Math.atan2(event.pageX - x, event.pageY - y);
+	  var rot = rad * (180 / Math.PI) * -1 + 180;
+	  eye.css({
+	    '-webkit-transform': 'rotate(' + rot + 'deg)',
+	    '-moz-transform': 'rotate(' + rot + 'deg)',
+	    '-ms-transform': 'rotate(' + rot + 'deg)',
+	    'transform': 'rotate(' + rot + 'deg)' });
+
+
+		});
+
+
+
+</script>
+
+
+
+</section>
+<section id="one"> 
+	<div class="container" >
+		<div class="row">
+			<div class="col-10 offset-2">
+				<div class="subj ">
+				<p class="title col-10 offset-2">- המשפחה שלנו זקוקה לבית גדול יותר -
+				</p> 
+		
+				<h2 class="one">
+						<a href="my-site-2/index.html" style="text-decoration: none;" >הבית של ברבאבא </a>
+				</h2>
+
+				</div>
+
+				<div class="subj">
+				<p class="title1 col-10 offset-2">- כל ילד שונה ואין שני לו בעולם- יחונך רק באהבה -
+
+				</p>
+				
+				<h2 class="two">
+					<a href="my-site-3/index.html" style="text-decoration: none;" >
+					בית הספר של ברבאבא </a>
+				</h2>
+
+				 </div>
+
+				<div class="subj">
+				<p class="title2 col-10 offset-2"> - ברבאבא פותר בעיות ומחלץ מצרות - </p>
+			
+				<h2 class="three">
+				<a href="my-site-4/index.html" style="text-decoration: none;" > ברבאבא אין כמוך בעולם </a> 
+				</h2>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+<section id="footer">
+
+
+	<div class="container foot">
+		<div class="row offset-1">
+
+
+			<div class="col-4 "> 
+
+			<h4 class="text2" dir="rtl">	 
+סדרת הספרים לילדים נכתבה במקור בצרפת על ידי אנט טייסון וטיילר טיילוס, אמריקאים שגרו בצרפת, ועקב הצלחתה הפכה לסדרת טלוויזיה מצוירת.
+הסדרה מפגישה את הילדים עם דמותו האהובה של ברבאבא (משחק מילים בצרפתית שפירושו צמר גפן מתוק) ומספרת לנו כיצד הוא הגיח לעולם  ואיך הוא הופך את העולם למקום שטוב לחיות בו.<br /> ניתן להשיג ברשתות הספרים ובחנויות הצעצועים ברחבי הארץ. </h4>
+			</div>
+
+			<div class="col-4"> 
+
+			<h4 class="text2" dir="rtl"> המהדורה החדשה תציג עיבוד מחודש על ידי יורם טהרלב.
+מחבר השיר "ברבאבא", שזכור להורים רבים מילדותם.
+שיר שנכתב לתחרות פסטיבל שירי הילדים בביצועה של ציפי שביט. 
+חברת 'קלסיקלטת' משיקה מהדורה חדשה לסדרת הספרים "ברבאבא", 
+המבוססת על תכנית הטלוויזיה הקלסית והאהובה ששודרה בערוץ 1 בשנות ה-80.
+<br />התכנית זוכה לחידוש ומשודרת בימים אלה באחד מערוצי הילדים. </h4>
+				
+			</div>
+
+		
+
+
+			<div class="col-3"> 
+	<hr>
+				<h3 class="text" dir="rtl">  נוסטלגיה: ספרי "ברבאבא"  <br />חוזרים במהדורה חדשה </h3>
+
+				<h4 class="text3" dir="rtl"> מאת: יורם טהרלב</h4>
+<hr>
+			</div>
+
+		</div>
+	</div>
+
+	
+</section>
+
+
+
+
+
+</body>
+
+
+</html>
