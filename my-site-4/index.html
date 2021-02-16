@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html>
 
@@ -5,9 +8,10 @@
   <title>Barbapapa</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap" rel="stylesheet">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%232652e2%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2279%22>👀</text></svg>" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%232652e2%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2279%22>👀</text></svg>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -17,27 +21,12 @@
 
 
 
-		
-
-<section class="move-area">
-
-  		<div class='.container'>
-   			    <a href="../index.html" style="text-decoration: none;">
-          <div class='eye' ></div>
-          <div class='eye'></div>
-       </a>
- 		 </div>
-
-</section>
-
-
-
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 <script id="rendered-js">
 
 
-	$(".move-area").mousemove(function (event) {
+	$("body").mousemove(function (event) {
 	  var eye = $(".eye");
 	  var x = eye.offset().left + eye.width() / 2;
 	  var y = eye.offset().top + eye.height() / 2;
@@ -57,65 +46,95 @@
 
 
 
-</section>
 
 
 
-<section id="one"> 
-
-	<div class="container" >
-
-		<div class="row">
-
-			<div class="col-10 offset-2">
-
-				<div class="route">
-						<img src="images/tit-02.png">
-
-				</div>
-			</div>
-		</div>
-
-<div>
-	<div class="move-area2 right">
-		  					<a href="../my-site-3/index.html" style="text-decoration: none;">
-								<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 35 35">
-								  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-								</svg>
-							</a>
-							</div>
 
 
-							<div class="move-area2 left">
-							<a href="../my-site-2/index.html" style="text-decoration: none;">
-								<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 35 35">
-								  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-								
-								</svg>
+
+
+
+<header>
+
+	<table>
+
+		<tr>
+				<td>
+						<div class="left">
+								<a href="../my-site-2/index.html" style="text-decoration: none;">
+									<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 35 35">
+									  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+									
+									</svg>
+								</a>
+								</div>
+				</td>
+					
+				<td  style="width: 271px;">
+						<div class="title" >
+							<img src="images/tit-02.png" style="width: 250px;">
+						</div>
+				</td>
+
+				<td>
+						<div class="right">
+							<a href="../my-site-3/index.html" style="text-decoration: none;">
+							<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 35 35">
+							  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+							</svg>
 							</a>
 						</div>
-</div>
+				
+				</td>
+			</td>
+		<tr>
 
 
-	</div>
+				<td style="height: 20px;">
+						<section class="move-area">
 
-</section>
+					  		<div class='.container'>
+					   			    <a href="../index.html" style="text-decoration: none;">
+					          <div class='eye' ></div>
+					          <div class='eye'></div>
+					       			</a>
+					 		</div>
+
+						</section>
+				</td>
+
+
+		</tr>
+		
+
+	</table>
+
+			
+</header>
 
 
 
 
 
 
-<section class="main">
+
+
+
+
+
+
+
+<section id="main">
 
 	<div class="videos">
+
 
 
 	
 		
 		<img  class="imgG" src="images/book3/web_2.jpg" ></img>
 	<ul></ul>
-		<video width="520" height="400" controls autoplay>
+	<video width="600" height="446" controls autoplay>
   			<source src="barbapapa.mp4" type="video/mp4">
   		</video>
   	<ul></ul>
@@ -151,58 +170,45 @@
 
 
 
+<footer id="footer">
 
 
-
-<section id="footer">
-
-
-	<div class="container foot">
+	<div class="container">
 		<div class="row offset-1">
 
-
-			<div class="col-4 "> 
-
-			<h4 class="text2" dir="rtl">	 
-סדרת הספרים לילדים נכתבה במקור בצרפת על ידי אנט טייסון וטיילר טיילוס, אמריקאים שגרו בצרפת, ועקב הצלחתה הפכה לסדרת טלוויזיה מצוירת.
-הסדרה מפגישה את הילדים עם דמותו האהובה של ברבאבא (משחק מילים בצרפתית שפירושו צמר גפן מתוק) ומספרת לנו כיצד הוא הגיח לעולם  ואיך הוא הופך את העולם למקום שטוב לחיות בו.<br /> ניתן להשיג ברשתות הספרים ובחנויות הצעצועים ברחבי הארץ. </h4>
+			<div class="col-4"> 
+				<h4 class="text2" dir="rtl">	 
+					סדרת הספרים לילדים נכתבה במקור בצרפת על ידי אנט טייסון וטיילר טיילוס, אמריקאים שגרו בצרפת, ועקב הצלחתה הפכה לסדרת טלוויזיה מצוירת.
+					הסדרה מפגישה את הילדים עם דמותו האהובה של ברבאבא (משחק מילים בצרפתית שפירושו צמר גפן מתוק) ומספרת לנו כיצד הוא הגיח לעולם  ואיך הוא הופך את העולם למקום שטוב לחיות בו.<br /> ניתן להשיג ברשתות הספרים ובחנויות הצעצועים ברחבי הארץ. 
+				</h4>
 			</div>
 
 			<div class="col-4"> 
-
-			<h4 class="text2" dir="rtl"> המהדורה החדשה תציג עיבוד מחודש על ידי יורם טהרלב.
-מחבר השיר "ברבאבא", שזכור להורים רבים מילדותם.
-שיר שנכתב לתחרות פסטיבל שירי הילדים בביצועה של ציפי שביט. 
-חברת 'קלסיקלטת' משיקה מהדורה חדשה לסדרת הספרים "ברבאבא", 
-המבוססת על תכנית הטלוויזיה הקלסית והאהובה ששודרה בערוץ 1 בשנות ה-80.
-<br />התכנית זוכה לחידוש ומשודרת בימים אלה באחד מערוצי הילדים. </h4>
-				
+				<h4 class="text2" dir="rtl"> המהדורה החדשה תציג עיבוד מחודש על ידי יורם טהרלב.
+					מחבר השיר "ברבאבא", שזכור להורים רבים מילדותם.
+					שיר שנכתב לתחרות פסטיבל שירי הילדים בביצועה של ציפי שביט. 
+					חברת 'קלסיקלטת' משיקה מהדורה חדשה לסדרת הספרים "ברבאבא", 
+					המבוססת על תכנית הטלוויזיה הקלסית והאהובה ששודרה בערוץ 1 בשנות ה-80.
+					<br />התכנית זוכה לחידוש ומשודרת בימים אלה באחד מערוצי הילדים. 
+				</h4>
 			</div>
-
-		
 
 
 			<div class="col-3"> 
-	<hr>
-				<h3 class="text" dir="rtl">  נוסטלגיה: ספרי "ברבאבא"  <br />חוזרים במהדורה חדשה </h3>
+				<hr>
+					<h3 class="text" dir="rtl">  נוסטלגיה: ספרי "ברבאבא"  <br />חוזרים במהדורה חדשה 
+					</h3>
 
-				<h4 class="text3" dir="rtl"> מאת: יורם טהרלב</h4>
-<hr>
+					<h4 class="text3" dir="rtl"> מאת: יורם טהרלב
+					</h4>
+				<hr>
 			</div>
 
 		</div>
 	</div>
 
 	
-</section>
-
-
-
-
-
-
-
-
+</footer>
 
 
 

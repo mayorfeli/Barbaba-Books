@@ -20,7 +20,7 @@
 
 body{ margin: 0;
 
-	font-family: FrankG_Bold;
+  font-family: FrankG_Bold;
 margin-top: 130px;
 background-color: #001511;
  height: 700px;
@@ -69,27 +69,27 @@ background-color: #001511;
 
 
 section{
-	width: 100%;
-	padding: 0;
-	position: relative;
-	text-align: center;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  text-align: center;
 
 }
 
 .container{
-	width: 100%;
-	margin: auto;
-	padding: 0 7.1%;
+  width: 100%;
+  margin: auto;
+  padding: 0 7.1%;
 
 
 }
 
 .row{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 
-	
+  
 
 }
 .col-2{
@@ -110,37 +110,37 @@ section{
 }
 
 .col-5{
-	width: 35.5%;
-	padding: 15px;
-	padding-top: 0px;
+  width: 35.5%;
+  padding: 15px;
+  padding-top: 0px;
 }
 
 .col-8{
-	width: 56.8%;
-	padding: 15px;
+  width: 56.8%;
+  padding: 15px;
 
 }
 
 
 .col-10{
-	width: 71%;
+  width: 71%;
   margin-top: 35px;
-	padding-bottom: 0;
+  padding-bottom: 0;
 
 
 
 }
 
 .col-11{
-	width: 71%;
-	padding: 15px;
-	padding-bottom: 0;
+  width: 71%;
+  padding: 15px;
+  padding-bottom: 0;
 }
 
 
 
 .offset-2{
-	margin-left: 14.2%;
+  margin-left: 14.2%;
 }
 
 .offset-1{
@@ -148,7 +148,7 @@ section{
 }
 
 .title .title1 .title2{
-	font-size: 105px;
+  font-size: 105px;
 
 }
 
@@ -182,12 +182,12 @@ div.subj:hover > p{
 
 
 div.subj:hover{
-	transform: scale(1.5);
-	transition: transform .5s ease;
- 	height: 110px;
- 	background-size: 370px 110px;
-  	background-position: center; 
-   	background-repeat: no-repeat; 
+  transform: scale(1.5);
+  transition: transform .5s ease;
+  height: 110px;
+  background-size: 370px 110px;
+    background-position: center; 
+    background-repeat: no-repeat; 
  mix-blend-mode: normal;
 
  
@@ -250,7 +250,7 @@ h4{ font-family: FrankRuhlProLight;
 
 .one a:hover{
 
-	-webkit-text-fill-color: white ;  /* Will override color (regardless of order) */
+  -webkit-text-fill-color: white ;  /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #f24fd4;
 
